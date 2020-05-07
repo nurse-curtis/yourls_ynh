@@ -64,6 +64,7 @@
                 "ask": {
                     "en": "Password for the admin account (At least 6 characters long)"
                 }
+
         ]
     }
 }
