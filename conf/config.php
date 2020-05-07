@@ -32,7 +32,7 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
 define( 'YOURLS_SITE', 'https://yunodomain_yourlspath' );
 
 /** Timezone GMT offset */
-define( 'YOURLS_HOURS_OFFSET', 0 );
+define( 'YOURLS_HOURS_OFFSET', -6 );
 
 /** YOURLS language or "locale".
  ** Change this setting to "localize" YOURLS (use a translation instead of the default English). A corresponding .mo file
@@ -87,8 +87,8 @@ $yourls_reserved_URL = array(
  ** Personal settings would go after here.
  */
 
-//define( 'LDAPAUTH_HOST', 'localhost' );
-//define( 'LDAPAUTH_PORT', '389' );
-//define( 'LDAPAUTH_BASE', 'dc=yunohost,dc=org' );
-//define( 'LDAPAUTH_USERNAME_FIELD', 'uid');
+define( 'LDAPAUTH_HOST', 'localhost' );
+define( 'LDAPAUTH_PORT', '389' );
+define( 'LDAPAUTH_BASE', 'dc=yunohost,dc=org' );
+define( 'LDAPAUTH_USERNAME_FIELD', 'uid');
 

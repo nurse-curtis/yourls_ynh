@@ -6,7 +6,7 @@
         "en": "An URL shortening service",
         "fr": "Un service de raccourcisseur d'url"
     },
-    "version": "1.7.6",
+    "version": "1.7.9",
     "url": "https://github.com/YOURLS/YOURLS",
     "license": "free",
     "maintainer": {
@@ -25,7 +25,7 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "php5-fpm",
+        "php7.3-fpm",
         "mysql"
     ],
     "arguments": {
@@ -57,8 +57,13 @@
                     "fr": "Administrateur du site Yourls"
                 },
                 "example": "yoda"
-            }
-
+            },
+            {
+                "name": "pass",
+                "type": "password",
+                "ask": {
+                    "en": "Password for the admin account (At least 6 characters long)"
+                }
         ]
     }
 }
